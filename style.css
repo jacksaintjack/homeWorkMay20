@@ -1,0 +1,47 @@
+
+.headerImage{
+  position: absolute;
+  width: 99%;
+  height: 400px;
+  margin-left:0.5%;
+  opacity: 0.4;
+
+}
+
+.fa fa-diamond fa-2x{
+    padding-left:
+
+}
+
+.logo{
+  width: 260px;
+  margin:0px;
+  padding-left: 120px;
+  padding-top: 15px;
+
+
+}
+.aboutSearch{
+  padding-top: 13px;
+  float: right;
+  margin-right: 120px;
+}
+
+.title{
+  float: none;
+  padding-left: 380px;
+  display: block;
+  padding-top: 130px;
+  font-family: 'Lucida Bright', Georgia, serif;
+  font-size:50px;
+
+  font-weight: bold;
+}
+
+.articleTitle{
+  position:absolute;
+  margin-top: 210px;
+  margin-left: 110px;
+  font-family: monospace;
+  font-size: 30px;
+}
