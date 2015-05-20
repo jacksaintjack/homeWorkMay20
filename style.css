@@ -34,14 +34,88 @@
   padding-top: 130px;
   font-family: 'Lucida Bright', Georgia, serif;
   font-size:50px;
-
   font-weight: bold;
+}
+
+.subTitle{
+  font-size: 10px;
+  font-family: 'Lucida Bright', Georgia, serif;
+  padding-left: 550px;
 }
 
 .articleTitle{
   position:absolute;
-  margin-top: 210px;
+  margin-top: 190px;
   margin-left: 110px;
-  font-family: monospace;
-  font-size: 30px;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 40px;
+}
+
+.userPicture{
+  border-radius: 50%;
+  width: 3%;
+  float: left;
+  margin-top: 280px;
+  margin-left: 110px
+}
+
+.name{
+  font-size: 10px;
+  color: #448AC0;
+  padding-top: 285px;
+  float: left;
+  padding-left: 5px;
+}
+
+.firstWord{
+  font-size: 10px;
+  color: #BBC6CF;
+  padding-top: 285px;
+  float: left;
+  padding-left: 5px;
+}
+
+.timeDate{
+  font-size: 10px;
+  color: #BBC6CF;
+  text-decoration:underline;
+  padding-left: 30px;
+  padding-top: 285px;
+  float: left;
+  padding-left: 5px;
+}
+
+.userPicture2{
+border-radius: 50%;
+width: 8%;
+float: right;
+margin-right: 372px;
+margin-top: 230px;
+
+}
+
+.mainText{
+  height: 500px;
+  width: 487px;
+  float: left;
+  margin-top: 330px;
+  margin-left: -228px;
+
+}
+
+.grayShark{
+  color: #BBC6CF;
+  text-decoration:underline;
+
+}
+.exitingText{
+  font-size: 18px;
+  color: #0058A8;
+  border-left: 1px solid #BDC1C3;
+  padding-left: 10px;
+
+}
+
+.icons{
+  
 }
