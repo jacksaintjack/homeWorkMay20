@@ -117,5 +117,56 @@ margin-top: 230px;
 }
 
 .icons{
-  
+  float: left;
+  position: absolute;
+  margin-top: 830px;
+  margin-left: 110px;
+  width: 500px;
+  height: 50px;;
+}
+
+.outerBox1{
+  background-color: #5E686F;
+  width: 20px;
+  height: 20px;
+  margin-top: -19px;
+  margin-left: -2px;
+
+}
+
+.sideBox1{
+  background-color: #A3B3BF;
+  width: 125px;
+  height: 20px;
+  margin-top: -20px;
+  margin-left: 18px;
+}
+
+.textComment{
+  margin-left: 20px;
+  margin-top: -18px;
+  color: white;
+}
+
+.outerBox2{
+  background-color: #5E686F;
+  width: 20px;
+  height: 20px;
+  margin-top: -19px;
+  margin-left: -2px;
+}
+
+.sideBox2{
+  background-color: #A3B3BF;
+  width: 125px;
+  height: 20px;
+  margin-top: -20px;
+  margin-left: 18px;
+
+}
+
+.readLater{
+  margin-left: 20px;
+  margin-top: -18px;
+  color: white;
 }
