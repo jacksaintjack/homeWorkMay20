@@ -85,15 +85,6 @@
   padding-left: 5px;
 }
 
-.userPicture2{
-border-radius: 50%;
-width: 8%;
-float: right;
-margin-right: 372px;
-margin-top: 230px;
-
-}
-
 .mainText{
   height: 500px;
   width: 487px;
@@ -113,7 +104,7 @@ margin-top: 230px;
   color: #0058A8;
   border-left: 1px solid #BDC1C3;
   padding-left: 10px;
-
+/*END OF ARTICLE TEXT*/
 }
 /* START OF MEDIA BOXEES BELOW ARTICLE */
 .mediaBoxes{
@@ -208,4 +199,32 @@ margin-top: 230px;
   float: left;
   color: white;
   margin-left: -7.5em;
+}
+
+.userPicture2{
+  border-radius: 50%;
+  width: 8%;
+  float: right;
+  margin-right: 17em;
+  margin-top: 230px;
+
+}
+
+.name2{
+  color: #448AC0;
+  margin-top: 22em;
+   float: right;
+   margin-right: -5.9em;
+
+}
+
+.flexContainer{
+  display:flex;
+  justify-content:space-around;
+  list-style: none;
+}
+
+.flexItem {
+  float:left;
+  color: #BBC6CF;
 }
