@@ -1,10 +1,10 @@
 
 .headerImage{
   position: absolute;
-  width: 99%;
-  height: 400px;
-  margin-left:0.5%;
+  width: 100%;
+  height: 24em;
   opacity: 0.4;
+  float:left;
 
 }
 
@@ -14,83 +14,87 @@
 }
 
 .logo{
-  width: 260px;
-  margin:0px;
-  padding-left: 120px;
-  padding-top: 15px;
+  margin: 0px;
+  padding-left: 10%;
+  padding-top: 1%;
 
 
 }
 .aboutSearch{
-  padding-top: 13px;
+  padding-top: 1%;
   float: right;
-  margin-right: 120px;
+  margin-right: 10%;
 }
 
 .title{
   float: none;
-  padding-left: 380px;
+  padding-left: 24%;
   display: block;
-  padding-top: 130px;
+  padding-top: 8%;
   font-family: 'Lucida Bright', Georgia, serif;
-  font-size:50px;
+  font-size: 4em;
   font-weight: bold;
 }
 
 .subTitle{
-  font-size: 10px;
+  font-size: 0.8em;
   font-family: 'Lucida Bright', Georgia, serif;
-  padding-left: 550px;
+  padding-left: 43%;
 }
 
 .articleTitle{
-  position:absolute;
-  margin-top: 190px;
-  margin-left: 110px;
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 10%;
   font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
-  font-size: 40px;
+  font-size: 3em;
+
 }
 
 .userPicture{
   border-radius: 50%;
   width: 3%;
   float: left;
-  margin-top: 280px;
-  margin-left: 110px
+  margin-top: 23%;
+  margin-left: 11%;
+
+}
+
+.userPicture:hover{
+  background-color:blue;
+  opacity:0.5;
 }
 
 .name{
-  font-size: 10px;
+  font-size: 0.5em;
   color: #448AC0;
-  padding-top: 285px;
+  padding-top: 23.5%;
   float: left;
-  padding-left: 5px;
+  padding-left: 1%
 }
 
 .firstWord{
-  font-size: 10px;
+  font-size: 0.5em;
   color: #BBC6CF;
-  padding-top: 285px;
+  padding-top: 23.5%;
   float: left;
-  padding-left: 5px;
+  padding-left: 1%;
 }
 
 .timeDate{
-  font-size: 10px;
+  font-size: 0.5em;
   color: #BBC6CF;
   text-decoration:underline;
-  padding-left: 30px;
-  padding-top: 285px;
+  padding-top: 23.5%;
   float: left;
-  padding-left: 5px;
+  padding-left: 0.3%;
 }
 
 .mainText{
-  height: 500px;
-  width: 487px;
+  width: 41%;
   float: left;
-  margin-top: 330px;
-  margin-left: -228px;
+  margin-top: 26%;
+  margin-left: -18%;
 
 }
 
@@ -100,18 +104,19 @@
 
 }
 .exitingText{
-  font-size: 18px;
+  font-size: 1.2em;
   color: #0058A8;
   border-left: 1px solid #BDC1C3;
-  padding-left: 10px;
+  padding-left: 2%;
 /*END OF ARTICLE TEXT*/
 }
 /* START OF MEDIA BOXEES BELOW ARTICLE */
 .mediaBoxes{
   float: left;
-  margin-top: 51em;
+  margin-top: 49em;
   width: 14%;
-  margin-left: -30.5em;
+  margin-left: -32em;
+
 }
 
 .icons1{
@@ -136,9 +141,9 @@
 
 .mediaBoxes2{
   float: left;
-  margin-top: 51em;
+  margin-top: 49em;
   width: 14%;
-  margin-left: -20.5em;
+  margin-left: -21em;
 }
 .textComment{
   float: left;
@@ -172,9 +177,9 @@
 
 .mediaBoxes3{
   float: left;
-  margin-top: 51em;
+  margin-top: 49em;
   width: 14%;
-  margin-left:-10.5em
+  margin-left: -10em;
 }
 
 .outerBox3{
@@ -233,13 +238,22 @@
   float: right;
   margin-right: 12em;
 }
-
+.advertisement:hover{
+  background-color:blue;
+  color:blue;
+  opacity:0.5;
+}
 .add{
   font-size: 0.7em;
   color: #BBC6CF;
   float: right;
   margin-top: 19em;
   margin-right: -23em;
+}
+
+.add:hover{
+  color:blue;
+  opacity:0.5;
 }
 /* BELOW CONTAINED IN sideBar */
 .sideBar{
@@ -260,7 +274,7 @@
   color: #A2B2BE;
   font-size: 1em;
 }
-
+/* START OF THE FOOTER */
 .importantThings{
   float: left;
   margin-top: 1em;
@@ -276,3 +290,110 @@
   float: left;
   margin-left: 16.5em;
   margin-top: 1em;
+}
+/*PICTURE BLOCK AT THE BOTTOM */
+.articles{
+  float:left;
+  width:100%;
+}
+
+.tJOne{
+  width: 24.7%;
+  float: left;
+  height: 17.5em;
+  border:0.1em solid black;
+}
+
+.tJOne:hover{
+  background-color:blue;
+  color:blue;
+  opacity:0.5;
+}
+
+.tJTwo{
+  width: 24.7%;
+  float: left;
+  height: 17.5em;
+  border:0.1em solid black;
+}
+.tJTwo:hover{
+  background-color:blue;
+  color:blue;
+  opacity:0.5;
+}
+.tJThree{
+  width: 24.7%;
+  float: left;
+  height: 17.5em;
+  border:0.1em solid black;
+}
+.tJThree:hover{
+  background-color:blue;
+  color:blue;
+  opacity:0.5;
+}
+.tJFour{
+  width: 25.2%;
+  float: left;
+  height: 17.5em;
+  border:0.1em solid black;
+}
+.tJFour:hover{
+  background-color:blue;
+  color:blue;
+  opacity:0.5;
+}
+.bottomBox{
+  width: 100%;
+  float: left;
+  background-color: rgba(8, 52, 82, 0.86);
+  height: 5em;
+}
+
+.ironRights{
+
+  width: 20em;
+  height: 2em;
+  float: left;
+  margin-left: 8em;
+  margin-top: 1.5em;
+}
+.ironRights img{
+  width: 12%;
+  float: left;
+}
+
+.ironRights span{
+  color: white;
+  font-size: 0.5em;
+  float: left;
+  margin-left: 2em;
+  margin-top: 1.4em;
+
+}
+
+.ironNav{
+  width: 20em;
+  height: 2em;
+  float: right;
+  margin-right: 8em;
+  margin-top: 1.5em;
+}
+
+.ironNav ul{
+  margin-left: 8.5em;
+  margin-top: 0.3em;
+}
+
+.ironNav li{
+  font-size:0.5em;
+  color:white;
+  display:inline;
+  margin-left:0.3em;
+}
+
+.ironNav .bar{
+  color:gray;
+  margin-right: 0.3em;
+
+}
