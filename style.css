@@ -139,16 +139,18 @@
   width: 8.1em;
 }
 
+
+.textComment{
+  float: left;
+  color: white;
+  margin-left: -7.9em;
+}
+
 .mediaBoxes2{
   float: left;
   margin-top: 49em;
   width: 14%;
   margin-left: -21em;
-}
-.textComment{
-  float: left;
-  color: white;
-  margin-left: -8em;
 }
 
 .outerBox2{
@@ -395,5 +397,149 @@
 .ironNav .bar{
   color:gray;
   margin-right: 0.3em;
+
+}
+
+@media (max-width: 800px) {
+.headerImage{
+  position: absolute;
+  width: 100%;
+  height: 23em;
+  opacity: 0.4;
+  float:left;
+}
+.title {
+  float: none;
+  padding-left: 23%;
+  display: block;
+  padding-top: 14%;
+  font-family: 'Lucida Bright', Georgia, serif;
+  font-size: 3em;
+  font-weight: bold;
+  }
+.subTitle {
+  font-size: 0.8em;
+  font-family: 'Lucida Bright', Georgia, serif;
+  padding-left: 38%;
+}
+.articleTitle {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 19%;
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 3em;
+}
+.userPicture {
+  border-radius: 50%;
+  width: 3%;
+  float: left;
+  margin-top: 24%;
+  margin-left: 20%;
+}
+.mainText {
+  width: 63%;
+  float: left;
+  margin-top: 26%;
+  margin-left: -25%;
+}
+.mediaBoxes {
+  float: left;
+  margin-top: 41em;
+  width: 23%;
+  margin-left: -30em;
+}
+.mediaBoxes2 {
+  float: left;
+  margin-top: 41em;
+  width: 23%;
+  margin-left: -20em;
+}
+.mediaBoxes3 {
+  float: left;
+  margin-top: 41em;
+  width: 22%;
+  margin-left: -10em;
+}
+
+.userPicture2{
+  display:none;
+}
+.name2{
+  display:none;
+}
+.mediaWords {
+  color: #BBC6CF;
+  margin-top: 17em;
+  float: left;
+  word-spacing: 0.5em;
+  font-size: 0.7em;
+  margin-left: -26em;
+}
+.advertisement {
+  margin-top: 1em;
+  float: left;
+  margin-left: 9.5em;
+}
+.add {
+  font-size: 0.7em;
+  color: #BBC6CF;
+  float: left;
+  margin-top: 19em;
+  margin-left: -24em;
+}
+.sideBar {
+  float: right;
+  width: 28%;
+  margin-top: -12.5em;
+  margin-right: 8em;
+}
+.importantThings span {
+  color: #083452;
+  font-size: 1.5em;
+  float: left;
+  margin-left: 12.5em;
+  margin-top: 1em;
+}
+.tJFour {
+  width: 24.2%;
+  float: left;
+  height: 17.5em;
+  border: 0.1em solid black;
+}
+.ironNav {
+  width: 20em;
+  height: 2em;
+  float: right;
+  margin-right: 8em;
+  margin-top: -1.8em;
+}
+}
+@media (max-width: 400){
+  .logo {
+  margin: 0px;
+  padding-left: 18%;
+  padding-top: 1%;
+}
+.aboutSearch {
+  padding-top: 1%;
+  float: right;
+  margin-right: 27%;
+}
+.title {
+  padding-left: 10%;
+  display: block;
+  padding-top: 37%;
+  font-family: 'Lucida Bright', Georgia, serif;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-size: 0.5em;
+  font-family: 'Lucida Bright', Georgia, serif;
+  padding-left: 28%;
+}
+
+
 
 }
